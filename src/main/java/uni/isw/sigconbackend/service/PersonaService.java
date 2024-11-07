@@ -16,7 +16,7 @@ public class PersonaService {
         return personaRepository.findAll();
     }
     
-    public Optional<Persona> getPersona(Long id){
+    public Optional<Persona> findPersonaById(Long id){
         return personaRepository.findById(id);
     }
     
